@@ -1,0 +1,483 @@
+body{
+  margin: auto;
+  width: 1500px;
+  font-family: Arial;
+}
+
+#header{
+  height: 70px;
+  background-color: black;
+}
+
+#header-right ul li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#header-right ul li a{
+  text-decoration: none;
+  color: #c9aaf6;
+}
+
+#header-right ul{
+  margin-right: 40px;
+  font-size: 25px;
+  margin-top: -53px;
+}
+
+#header-right{
+  float: right;
+}
+
+#header-left h1{
+  text-decoration: none;
+  color: #c9aaf6;
+  font-weight: bold;
+  padding-top: 13px;
+  margin-left: 40px;
+}
+
+#main{
+  height: 430px;
+}
+
+#main-right{
+  display: inline-block;
+  margin-top: -420px;
+  float: right;
+}
+
+#main-left{
+  margin-left: 30px;
+}
+
+#main-left p:first-of-type{
+  margin-top: 180px;
+  font-size: 25px;
+}
+
+#main-left p:nth-child(2){
+  font-size: 45px;
+  margin-top: -20px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+#main-left p:nth-child(3){
+  font-size: 20px;
+  margin-top: -30px;
+  border-bottom: #c9aaf6 solid;
+}
+
+#main-left p:nth-child(4){
+  font-size: 30px;
+}
+
+#about{
+  height: 320px;
+  background-color: #f0e8fe;
+}
+
+#aboutleft{
+  padding-top: 30px;
+  width: 650px;
+  padding-left: 200px;
+  float: left;
+}
+
+#aboutright{
+  display: flex;
+  background-image: url("images/img1.jpg");
+  background-repeat: no-repeat;
+  width: 199px;
+  height: 280px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 20px;
+}
+
+#aboutleft p:first-of-type{
+  padding-top: 10px;
+}
+
+#aboutleft p{
+  font-size: 19px;
+}
+
+#aboutleft button{
+  height: 40px;
+  width: 120px;
+  background-color: white;
+}
+
+#aboutleft button a{
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+footer{
+  background-color: black;
+  height: 500px;
+  color: white;
+}
+
+footer #locaton {
+  padding-top: 60px;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+footer #mail {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+footer #phone{
+  display: inline-block;
+  margin-left: 200px;
+}
+
+footer h1{
+  margin-left: 500px;
+  padding-top: 50px;
+}
+
+footer h3{
+  color: #c9aaf6;
+}
+
+footer #locationphoto{
+  background-image: url("images/location.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 53px;
+  margin-left: 60px;
+}
+
+footer #mailphoto{
+  background-image: url("images/email.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 40px;
+  margin-left: 110px;
+}
+
+footer #phonephoto{
+  background-image: url("images/phone.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-left: 35px;
+}
+
+footer #mail h3{
+  margin-left: 85px;
+}
+
+footer #phone h3{
+  margin-left: 27px;
+}
+
+footer #mail a{
+  text-decoration: none;
+  color: white;
+}
+
+.copyright{
+  padding-top: 70px;
+  margin-left: 710px;
+}
+
+#education, #hobbies{
+  height: 800px;
+  background-color: #e8dff3;
+}
+
+#introductionleft, #hobbyleft{
+  width: 1100px;
+  font-size: 22px;
+  float: left;
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#introductionright{
+  background-image: url("images/Education-Pic.jpg");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 176px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+#primary, #high, #faculty, #reading, #photography, #guitar{
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+#primary{
+  margin-top: 100px;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+#high{
+  margin-left: 50px;
+  display: inline-block;
+}
+
+#faculty{
+  margin-top: -450px;
+  display: inline-block;
+  float: right;
+  margin-right: 140px;
+}
+
+#primary h3{
+  margin-left: 80px;
+}
+
+#high h3{
+  margin-left: 100px;
+}
+
+#faculty h3{
+  margin-left: 100px;
+}
+
+#primary p, #high p, #faculty p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#primary button{
+  background-image: url("images/primary.jpg");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 186px;
+  margin-left: 35px;
+}
+
+#high button{
+  background-image: url("images/high.jpg");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 186px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+#faculty button{
+  background-image: url("images/finki.jpg");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 52px;
+  margin-left: 35px;
+  margin-top: 20px;
+  color: black;
+}
+
+#education a{
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  margin-top: 200px;
+}
+
+#faculty a{
+  display: inline-block;
+  margin-top: 150px;
+}
+
+#hobbynright{
+  background-image: url("images/hobby.jpg");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 224px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+#photoreading{
+  background-image: url("images/reading.jpg");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 210px;
+  margin-left: 40px;
+}
+
+#reading p, #photography p, #guitar p{
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+#reading h3{
+  margin-left: 130px;
+}
+
+#photography{
+  display: inline-block;
+  margin-left: 80px;
+}
+
+#photography h3{
+  margin-left: 120px;
+}
+
+#photophotography{
+  background-image: url("images/sunset1.jpg");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 168px;
+  margin-left: 30px;
+}
+
+
+#guitarphoto{
+  background-image: url("images/guitar.jpg");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 186px;
+}
+
+#reading{
+  margin-top: 100px;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+#photography{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#guitar{
+  margin-top: -450px;
+  display: inline-block;
+  float: right;
+  margin-right: 140px;
+}
+
+#guitar h3{
+  margin-left: 100px;
+}
+
+#guitarphoto{
+  margin-left: 35px;
+}
+
+#guitar p{
+  padding-top: 20px;
+}
+
+#guitarphoto{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#contact{
+  height: 500px;
+  background-color: #e8dff3;
+  margin-top: -20px;
+}
+
+#contact h1{
+  padding-top: 50px;
+  margin-left: 650px;
+}
+
+#contact p{
+  font-size: 20px;
+  margin-left: 250px;
+}
+
+#forms{
+  margin-left: 220px;
+}
+
+#forms button{
+  margin-left: 430px;
+  width: 200px;
+  height: 50px;
+}
+#forms a{
+  text-decoration: none;
+  font-size: 20px;
+}
+/*
+#header-right ul li a:hover {
+  display: block;
+  background-color: #c9aaf6;
+  color: black;
+  height: 40px;
+}
+*/
+.socialmediaicons a{
+  width:40px;
+  height:40px;
+  background-color:#f7e0ff;
+  border-radius:50%;
+}
+
+.socialmediaicons{
+  display: flex;
+}
+
+.socialmediaicons a:hover{
+  background-color: black;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+  color: #c9aaf6;
+}
+.socialmediaicons a:hover i{
+  color:#FFFFFF;
+}
+
+.socialmediaicons{
+  margin-left: 700px;
+}
+
+.socialmediaicons a{
+  margin-right: 25px;
+  margin-top: 50px;
+}
+
+footer p:last-child{
+  margin-top: -20px;
+}
+
+
+.text{
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  margin-top: -20px;
+}
+
+
+#phone p{
+  display: inline-block;
+}
+
+#locationphoto p{
+  display: inline-block;
+  line-height: 15px;
+}
+
+#header-right ul li a:hover{
+  font-weight: bold;
+}
